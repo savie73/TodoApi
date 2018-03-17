@@ -28,7 +28,7 @@
                 @Html.DisplayNameFor(model => model.movies[0].Title)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.movies[0].ReleaseDate)
+                <a asp-action ="Index" asp-route-sortOrder="@ViewData["DateSortParam"]">@Html.DisplayNameFor(model => model.movies[0].ReleaseDate)</a>
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.movies[0].Genre)
