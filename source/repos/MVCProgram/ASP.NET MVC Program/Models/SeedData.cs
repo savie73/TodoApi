@@ -21,37 +21,37 @@ namespace MvcMovie.Models
                 context.Movie.AddRange(
                      new Movie
                      {
-                         Title = "When Harry Met Sally",
-                         ReleaseDate = DateTime.Parse("1989-1-11"),
-                         Genre = "Romantic Comedy",
-                         Rating = "R",
-                         Price = 7.99M
+                         Title = "Meet the Mormons",
+                         ReleaseDate = DateTime.Parse("2014-10-10"),
+                         Genre = "Family",
+                         Rating = "G",
+                         Price = 6.99M
                      },
 
                      new Movie
                      {
-                         Title = "Ghostbusters ",
-                         ReleaseDate = DateTime.Parse("1984-3-13"),
-                         Genre = "Comedy",
-                         Rating = "R",
-                         Price = 8.99M
+                         Title = "Saints and Soldiers ",
+                         ReleaseDate = DateTime.Parse("2003-9-11"),
+                         Genre = "War",
+                         Rating = "PG-13",
+                         Price = 1.33M
                      },
 
                      new Movie
                      {
-                         Title = "Ghostbusters 2",
-                         ReleaseDate = DateTime.Parse("1986-2-23"),
-                         Genre = "Comedy",
-                         Rating = "R",
-                         Price = 9.99M
+                         Title = "The Saratov Approach",
+                         ReleaseDate = DateTime.Parse("2013-10-23"),
+                         Genre = "Action",
+                         Rating = "PG",
+                         Price = 1.00M
                      },
 
                    new Movie
                    {
-                       Title = "Rio Bravo",
-                       ReleaseDate = DateTime.Parse("1959-4-15"),
-                       Genre = "Western",
-                       Rating = "R",
+                       Title = "The Other Side of Heaven",
+                       ReleaseDate = DateTime.Parse("2001-12-14"),
+                       Genre = "Family",
+                       Rating = "PG",
                        Price = 3.99M
                    }
                 );
